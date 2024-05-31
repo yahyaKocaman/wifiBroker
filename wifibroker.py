@@ -8,7 +8,7 @@ wifi = pywifi.PyWiFi()
 iface = wifi.interfaces()[0]
 
 
-SSID = "Redmi Note 11R"
+SSID = "Wifi Name"
 
 security_types = [
     {'akm': [const.AKM_TYPE_WPA2PSK], 'cipher': const.CIPHER_TYPE_CCMP},  # WPA2-Personal
